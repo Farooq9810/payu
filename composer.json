@@ -12,7 +12,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "PayUIndia\\Payu\\": "src/"
+      "PayUIndia\\Payu\\": ""
     }
   },
   "require": {
@@ -20,7 +20,6 @@
     "magento/framework": "^102.0.0"
   },
   "require-dev": {
-    // Add dev dependencies here if needed, but do not include the package itself
     "phpunit/phpunit": "^9.5"
   },
   "minimum-stability": "stable",
