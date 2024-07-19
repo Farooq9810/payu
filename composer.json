@@ -1,11 +1,38 @@
+
 {
   "name": "payuindia/payu",
   "description": "PayU Payment Module for Magento 2.4.x",
+  "require-dev": {
+    "payuindia/payu": "dev-master"
+  },
   "type": "magento2-module",
   "version": "2.4.2",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "payuindia",
+      "email": "farooqh@futuresoftindia.com",
+      "homepage": "https://payu.in/",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "magento 2",
+    "social login",
+    "magento 2 social login",
+    "facebook login",
+    "Google Login",
+    "LinkedIn Login",
+    "Microsoft Live Login",
+    "Twitter Login",
+    "Yahoo Login",
+    "FourSquare Login",
+    "Amazon Login",
+    "Login",
+    "google",
+    "facebook",
+    "twitter",
+    "social proof"
   ],
   "autoload": {
     "files": [
@@ -14,18 +41,5 @@
     "psr-4": {
       "PayUIndia\\Payu\\": ""
     }
-  },
-  "require": {
-    "php": "^7.4 || ^8.0",
-    "magento/framework": "^102.0.0",
-    "magento/module-store": "^103.0.0"
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/Farooq9810/payu.git"
-    }
-  ]
+  }
 }
