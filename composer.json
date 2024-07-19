@@ -11,6 +11,9 @@
     "php": "^7.4 || ^8.0",
     "magento/framework": "^102.0.0"
   },
+  "require-dev": {
+    "payuindia/payu": "dev-master"
+  },
   "autoload": {
     "files": [
       "registration.php"
