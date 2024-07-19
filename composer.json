@@ -7,19 +7,25 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "require": {
-    "php": "^7.4 || ^8.0",
-    "magento/framework": "^102.0.0"
-  },
-  "require-dev": {
-    "payuindia/payu": "dev-master"
-  },
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "PayUIndia\\Payu\\": ""
+      "PayUIndia\\Payu\\": "src/"
     }
-  }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "magento/framework": "^102.0.0",
+    "magento/module-store": "^103.0.0" // Add other dependencies as needed
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Farooq9810/payu.git" // Replace with your repository URL if necessary
+    }
+  ]
 }
