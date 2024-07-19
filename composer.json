@@ -1,16 +1,16 @@
 {
   "name": "payuindia/payu",
-  "description": "PayU Payment Module for Magento 2.4.x1",
-  "require": {
-    "payuindia/payu": "2.4.2"
-  },
-  "minimum-stability": "stable",
+  "description": "PayU Payment Module for Magento 2.4.x",
   "type": "magento2-module",
   "version": "2.4.2",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
   ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "magento/framework": "^102.0.0"
+  },
   "autoload": {
     "files": [
       "registration.php"
