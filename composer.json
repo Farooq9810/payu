@@ -12,7 +12,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "PayUIndia\\Payu\\": "src/"
+      "PayUIndia\\Payu\\": ""
     }
   },
   "require": {
