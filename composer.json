@@ -1,11 +1,27 @@
 {
   "name": "payuindia/payu",
-  "description": "PayU Payment Module for Magento 2.4.x1",
+  "description": "PayU Payment Module for Magento 2.4.x",
+  "require-dev": {
+    "payuindia/payu": "dev-main"
+  },
   "type": "magento2-module",
   "version": "2.4.2",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "PayUIndia",
+      "email": "support@payu.com",
+      "homepage": "https://payu.in/",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "Magento 2",
+    "PayU India",
+    "Payment Gateway"
   ],
   "autoload": {
     "files": [
@@ -14,14 +30,5 @@
     "psr-4": {
       "PayUIndia\\Payu\\": ""
     }
-  },
-  "require": {
-    "php": "^7.4 || ^8.0",
-    "magento/framework": "^102.0.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.5"
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+  }
 }
